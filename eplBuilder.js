@@ -1474,7 +1474,7 @@ function eplBuilder() {
         v.setAttribute("loop", "");
         v.style["width"] = "100%";
         v.style["height"] = "100%";
-        s.src = "../video.mp4";
+        s.src = "video.mp4";
         s.type = "video/mp4";
         v.appendChild(s);
         document.body.appendChild(v);
