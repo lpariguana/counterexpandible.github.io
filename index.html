@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<script src="eplBuilder.js" type="text/javascript"></script>
+
+        <script> var EPL = new eplBuilder().create(eplFormats.videoCounterExpandible);</script>
+
+        <title>VideoCounter Expandible Template</title>
+    </head>
+    <body style="margin: 0;position: relative;">
+        <div style="width: 300px;height: 600px;">
+            <img src="300x600.jpg">
+        </div>
+        <div style="width: 300px;height: 250px; position:absolute; top: 275px;">
+            <a onclick="window.open(window.clickTag); return false" href="#!"> </a>
+        </div>
+        <script>
+            EPL.init();
+        </script>
+
+    </body>
+</html>
